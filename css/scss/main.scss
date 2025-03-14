@@ -177,12 +177,12 @@
                                                 column-gap: 24rem;
 
                                                 >.data-head {
-                                                    line-height: 24rem;
-                                                    font-size: calc(24rem / 1.5);
+                                                    line-height: var(--baseline-6x);
+                                                    font-size: calc(var(--baseline-6x) / 1.5);
                                                 }
                                                 >.data-body {
-                                                    line-height: 24rem;
-                                                    font-size: calc(24rem / 1.5);
+                                                    line-height: var(--baseline-6x);
+                                                    font-size: calc(var(--baseline-6x) / 1.5);
                                                 }
                                             }
                                         }

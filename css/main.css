@@ -139,12 +139,12 @@
        column-gap: 24rem;
 }
 .page-content .section.profile .section-wrap .section-body .data-display.history > .data-list > .data-item > .data-wrap > .data-body > .data-list > .data-item > .data-head {
-  line-height: 24rem;
-  font-size: 16rem;
+  line-height: var(--baseline-6x);
+  font-size: calc(var(--baseline-6x) / 1.5);
 }
 .page-content .section.profile .section-wrap .section-body .data-display.history > .data-list > .data-item > .data-wrap > .data-body > .data-list > .data-item > .data-body {
-  line-height: 24rem;
-  font-size: 16rem;
+  line-height: var(--baseline-6x);
+  font-size: calc(var(--baseline-6x) / 1.5);
 }
 .page-content .section.portfolio {
   position: relative;

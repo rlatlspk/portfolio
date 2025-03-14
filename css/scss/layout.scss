@@ -2,14 +2,12 @@ hr {
 	display: none;
 }
 
-img {
-	max-width: 100%;
+html {
+    font-size: 16px;
 }
-:root {
-	font-size: 1px;
-}
+
 body {
-	display: flex;
+    display: flex;
 	flex-direction: column;
 	align-items: stretch;
 	position: relative;
@@ -21,10 +19,49 @@ body {
 	font-family: Pretendard, Malgun Gothic, 맑은 고딕, dotum, 돋움, sans-serif;
 }
 
-.wbr {
-	display: inline-block;
+:root {
+    font-size: 1px;
+
+    --baseline: 4px;
+    --baseline-3x: calc(var(--baseline)*3);
+    --baseline-4x: calc(var(--baseline)*4);
+    --baseline-5x: calc(var(--baseline)*5);
+    --baseline-6x: calc(var(--baseline)*6);
+    --baseline-7x: calc(var(--baseline)*7);
+    --baseline-8x: calc(var(--baseline)*8);
+    --baseline-9x: calc(var(--baseline)*9);
+    --baseline-10x: calc(var(--baseline)*10);
+    
 }
 
-.test {
-    
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 0.75px;
+    }
+}
+
+
+
+// @media (min-width: 768px) {
+//     :root {
+//         font-size: 1px;
+//     }
+// }
+
+
+
+
+
+// @media (min-width: 1024px) {
+//     :root {
+//         font-size: calc(--baseline-6x / 1.5);
+//     }
+// }
+
+img {
+	max-width: 100%;
+}
+.wbr {
+	display: inline-block;
 }
