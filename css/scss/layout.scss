@@ -1,0 +1,30 @@
+hr {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+}
+:root {
+	font-size: 1px;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	word-break: keep-all;
+	overflow-wrap: break-word;
+	font-family: Pretendard, Malgun Gothic, 맑은 고딕, dotum, 돋움, sans-serif;
+}
+
+.wbr {
+	display: inline-block;
+}
+
+.test {
+    
+}
